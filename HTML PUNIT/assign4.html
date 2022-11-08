@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 And 4.1</title>
+    <style>
+        caption
+        {
+            caption-side:bottom;
+        }
+    </style>
+</head>
+<body>
+    
+    <table border="1px" cellspacing="10px" cellpadding="10px">
+       <caption><b>Table:-1 Basic Table</b></caption>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Phone No</th>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td>Punit</td>
+           <td>Ahmedabad</td>
+           <td>9824396141</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Gaurang</td>
+            <td>Ahmedabad</td>
+            <td>9228371789</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>Sherwin</td>
+            <td>Ahmedabad</td>
+            <td>9714290631</td>
+         </tr>
+    </table>
+<hr>
+    <table border="1px" cellspacing="10px" cellpadding="10px">
+        <caption><b>Table:-1.1 Basic Table</b></caption>
+        <colgroup>
+            <col span="4" style="background-color:lightblue ;"
+        </colgroup>
+         <tr>
+             <th>#</th>
+             <th>Name</th>
+             <th>City</th>
+             <th>Phone No</th>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>Punit</td>
+            <td rowspan="3">Ahmedabad</td>
+            <td>9824396141</td>
+         </tr>
+         <tr>
+             <td>2</td>
+             <td>Gaurang</td>
+             <!-- <td >Ahmedabad</td> -->
+             <td>9228371789</td>
+          </tr>
+          <tr>
+             <td>3</td>
+             <td>Sherwin</td>
+             <!-- <td >Ahmedabad</td> -->
+             <td>9714290631</td>
+          </tr>
+     </table>
+</body>
+</html>

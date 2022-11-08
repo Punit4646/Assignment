@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .main {
+            background-color: aqua;
+        }
+
+        .details {
+            color: rgb(2, 0, 97);
+
+        }
+
+        .x {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 style="color:red; background-color:rgb(0, 255, 255);">individual Registration</h1>
+    </center>
+    <div class="main">
+        <div>
+            <h3 style="color:red; font-family:Georgia, 'Times New Roman', Times, serif;">User Particulars</h3>
+        </div>
+        <center>
+            <div class="input-box">
+                <span class="details">Login ID</span>
+                <input type="text" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Password</span>
+                <input type="password" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Confirm Password</span>
+                <input type="password" required>
+            </div>
+        </center>
+        <div>
+            <h3 style="color:red; font-family:Georgia, 'Times New Roman', Times, serif;">Personal Particulars</h3>
+        </div>
+
+        <div class="option">
+            <span class="details">Salutation</span>
+            <select name="Select" id="">
+                <option value="">Select</option>
+                <option value="">YES</option>
+                <option value="">NO</option>
+            </select>
+            <div class="input-box">
+                <span class="details">Middle Name</span>
+                <input type="text" required>
+            </div>
+            <div class="option">
+                <span class="details">Resident Status</span>
+                <select name="Select" id="">
+                    <option value="">Select</option>
+                    <option value="">YES</option>
+                    <option value="">NO</option>
+                </select>
+                <div class="input-box">
+                    <span class="details">Email-id</span>
+                    <input type="email" required>
+                </div>
+            </div>
+</body>
+
+</html>

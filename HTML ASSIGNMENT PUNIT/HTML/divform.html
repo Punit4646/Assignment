@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        .container{
+            background-color: aqua;
+        }
+        h2{
+            background-color: darkblue;
+            color: red;
+            text-align: center;
+        }
+        label{
+            color: red;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Individual Registration</h2>
+    <br>
+    <div class="container">
+        <label>User Particulars</label>
+        <br>
+        <br>
+        <br>
+        <div class="first">
+            <center>
+            <table>
+                <tr>
+                    <td>Login ID </td>
+                    <td><input type="text" name="login" placeholder="Enter Your id"></td>
+                </tr>
+                <tr>
+                    <td>Password </td> 
+                    <td><input type="password" name="password" placeholder="Enter Your password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td> 
+                    <td> <input type="password" name="cpassword" placeholder="confirm your password"></td>
+                </tr>
+            </table>
+        </center>
+        </div>
+        <br>
+        <label>Personal Particulars</label>
+        <div class="second">
+            <div class="one">
+                <table>
+                    <tr>
+                        <td>Salutation</td>
+                        <td>
+                            <select name="select" id="">
+                                <option value="select" selected disabled>select</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" placeholder="enter your first name"></td>
+                    </tr>
+                    <tr>
+                        <td>Middle Name</td>
+                        <td><input type="text" placeholder="enter your middle name"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" placeholder="enter your last name"></td>
+                    </tr>
+                    <tr>
+                        <td>Resident Status</td>
+                        <td><select name="select" id="">
+                            <option selected disabled>select</option>
+                            <option> Yes</option>
+                            <option> No</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td><select name="select" id="">
+                            <option selected disabled>select</option>
+                            <option> India</option>
+                            <option> America</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email" placeholder="Enter Your Mail"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td><input type="tel" name="number" placeholder="Enter Your Mobile Number"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
